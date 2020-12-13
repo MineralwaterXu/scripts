@@ -1,6 +1,6 @@
 #!/bin/bash
 
 sleep 10
-ibus-daemon -drx
-flameshot
+fcitx5 &
+flameshot &
 syncthing &
