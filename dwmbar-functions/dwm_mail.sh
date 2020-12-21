@@ -7,7 +7,7 @@
 # To count mail in an inbox, change "/path/to/inbox" below to the location of your inbox. For example, "/home/$USER/.mail/new"
 
 dwm_mail () {
-    MAILBOX=$(ls /path/to/inbox | wc -l)
+    MAILBOX=$(ls /home/$USER/.local/share/mail/mineralwater@m1neralwater.com/INBOX/new | wc -l)
 
     printf "%s" "$SEP1"
     if [ "$IDENTIFIER" = "unicode" ]; then
